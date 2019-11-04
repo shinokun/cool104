@@ -77,7 +77,7 @@ count_fra_xy = pygame.Rect(card_width * 2 - pay_c_spa * 1.3 ,disp_card_s_y + car
 
 
 # マーク部位表示
-pay_back_xy = pygame.Rect([disp_card_spa * 4 + card_width * 3,pay_c_y,pay_c_spa * 15,pay_c_line * 4]) # 使用カード枠
+pay_back_xy = pygame.Rect([disp_card_spa * 4 + card_width * 3,pay_c_y,pay_c_spa * 15,pay_c_line * 4-10]) # 使用カード枠
 pay_Mark_s = pygame.transform.rotozoom(pygame.image.load(img_dir + "s.png"), 0, scale * 0.8)
 pay_Mark_h = pygame.transform.rotozoom(pygame.image.load(img_dir + "h.png"), 0, scale * 0.8)
 pay_Mark_c = pygame.transform.rotozoom(pygame.image.load(img_dir + "c.png"), 0, scale * 0.8)
