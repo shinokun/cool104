@@ -134,7 +134,7 @@ def main():
 
         #選択可能なカードがあるか判定
         if 1 in cards_ok:
-            message = ""
+            message = "カードを選択してください"
             #message = "まだカードがあります。" + str(orbit) + "巡目です。"
             if orbit == 2 and cards_count == 104:
                 message = "Congratulations! Cool 104!!"
