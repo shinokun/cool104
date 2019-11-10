@@ -12,7 +12,7 @@ pygame.display.set_caption("cool 104")
 
 
 fontsize = 36                                         # フォントサイズ
-fontcolor = [0,0,0]                                   # フォントの色
+fontcolor = [200,200,0]                               # フォントの色
 sysfont = pygame.font.Font("ipag.ttf", fontsize)
 
 # 画面
@@ -134,7 +134,8 @@ def main():
 
         #選択可能なカードがあるか判定
         if 1 in cards_ok:
-            message = "まだカードがあります。" + str(orbit) + "巡目です。"
+            message = ""
+            #message = "まだカードがあります。" + str(orbit) + "巡目です。"
             if orbit == 2 and cards_count == 104:
                 message = "Congratulations! Cool 104!!"
         else:
