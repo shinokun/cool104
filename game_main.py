@@ -98,7 +98,9 @@ def main():
     global orbit
     global message
     cards_count = 1   # カードのカウント数
+
     pygame.mixer.music.load(bgm_file)
+    pygame.mixer.music.set_volume(0.02)
     pygame.mixer.music.play(-1)
     while True:
         # リストが空で手札がないときリストを作成する
