@@ -74,8 +74,8 @@ pay_c_line = 50
 pay_c_list = [] * 52
 
 # カウントの表示場所（380,100+252-36）
-count_xy = pygame.Rect(card_width * 2 - pay_c_spa * 1.3 ,disp_card_s_y + card_height - pay_c_fontsize , card_width , card_height)
-count_fra_xy = pygame.Rect(card_width * 2 - pay_c_spa * 1.3 ,disp_card_s_y + card_height - pay_c_fontsize ,pay_c_fontsize ,pay_c_fontsize)
+count_xy = pygame.Rect(card_width * 2 - pay_c_spa * 4 ,disp_card_s_y + card_height - pay_c_fontsize , card_width , card_height)
+count_fra_xy = pygame.Rect(card_width * 2 - pay_c_spa * 4 ,disp_card_s_y + card_height - pay_c_fontsize ,pay_c_fontsize * 1.6,pay_c_fontsize)
 
 
 # マーク部位表示
