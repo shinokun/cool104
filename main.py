@@ -10,7 +10,7 @@ cmd = "C:\\Users\\shino\\Anaconda3\\envs\\game\\python.exe C:\\rep\\cool104\\gam
 def main():
     pygame.init()  # Pygameを初期化
     screen = pygame.display.set_mode((200, 100))  # 画面を作成
-    pygame.display.set_caption("Pygame sample app")  # タイトルを作成
+    pygame.display.set_caption("cool104")  # タイトルを作成
 
     button = pygame.Rect(30, 30, 120, 50)  # creates a rect object
     #button2 = pygame.Rect(100, 30, 70, 50)  # creates a rect object
@@ -19,7 +19,7 @@ def main():
     font = pygame.font.SysFont(None, 25)
 
     # STEP2.テキストの設定
-    text1 = font.render("start or reset", True, (0, 0, 0))
+    text1 = font.render("Push me start!", True, (0, 0, 0))
     #text2 = font.render("GREEN", True, (0, 0, 0))
 
     running = True
