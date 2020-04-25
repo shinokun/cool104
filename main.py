@@ -19,7 +19,7 @@ def main():
     font = pygame.font.SysFont(None, 25)
 
     # STEP2.テキストの設定
-    text1 = font.render("Push me!", True, (0, 0, 0))
+    text1 = font.render("Push me!!!", True, (0, 0, 0))
     #text2 = font.render("GREEN", True, (0, 0, 0))
 
     running = True
