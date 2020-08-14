@@ -4,7 +4,6 @@ import sys
 import subprocess
 from subprocess import Popen
 from time import  sleep
-#add 2020/08/15
 cmd = "d:\\Anaconda3\\envs\\game\\python.exe d:\\rep\\cool104\\game_main.py"
 
 
