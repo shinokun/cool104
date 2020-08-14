@@ -4,7 +4,7 @@ import sys
 import subprocess
 from subprocess import Popen
 from time import  sleep
-cmd = "C:\\Users\\shino\\Anaconda3\\envs\\game\\python.exe C:\\rep\\cool104\\game_main.py"
+cmd = "d:\\Anaconda3\\envs\\game\\python.exe d:\\rep\\cool104\\game_main.py"
 
 
 def main():
