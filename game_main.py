@@ -7,11 +7,11 @@ import re
 from pygame.locals import *
 from mutagen.mp3 import MP3 as mp3
 import time
-
+#add music
 pygame.init()
 pygame.display.set_caption("cool 104")
 
-bgm_file = 'ipa.mp3'
+bgm_file = 'cool104.Mp3'
 
 fontsize = 36                                         # フォントサイズ
 fontcolor = [200,200,0]                               # フォントの色
@@ -99,9 +99,9 @@ def main():
     global message
     cards_count = 1   # カードのカウント数
 
-    #pygame.mixer.music.load(bgm_file)
-    #pygame.mixer.music.set_volume(0.02)
-    #pygame.mixer.music.play(-1)
+    pygame.mixer.music.load(bgm_file)
+    pygame.mixer.music.set_volume(0.1)
+    pygame.mixer.music.play(-1)
     while True:
         # リストが空で手札がないときリストを作成する
         if all([x == "" for x in cards_list]) and all([x == "" for x in cards_str[1:]]):
