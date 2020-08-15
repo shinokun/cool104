@@ -99,9 +99,9 @@ def main():
     global message
     cards_count = 1   # カードのカウント数
 
-    #pygame.mixer.music.load(bgm_file)
-    #pygame.mixer.music.set_volume(0.1)
-    #pygame.mixer.music.play(-1)
+    pygame.mixer.music.load(bgm_file)
+    pygame.mixer.music.set_volume(0.5)
+    pygame.mixer.music.play(-1)
     while True:
         # リストが空で手札がないときリストを作成する
         if all([x == "" for x in cards_list]) and all([x == "" for x in cards_str[1:]]):
